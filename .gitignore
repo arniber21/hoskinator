@@ -1,0 +1,37 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Rust
+target/
+**/target/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+*.profraw
+*.profdata
+
+# Temporary files
+tmp/
+temp/
+.cache/
